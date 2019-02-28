@@ -1,0 +1,42 @@
+*{ margin:0;padding:0; list-style: none; }
+body { background-color: #EEE; font-size: 12px; font-family: '微软雅黑'; color: #FFF; }
+img { display: block; margin: 0 auto; }
+.main { width: 1115px; margin:0 auto; }
+#menu { width: 95px; float: left; position: fixed; background-color: #FFF; border-right: 1px solid #D2D2D2; }
+#menu li { padding: 15px 0; cursor: pointer; border-bottom: 1px solid #D2D2D2; border-top: none; }
+#menu li:hover { background-color: #f5f5f5; }
+#masonry { width: 1020px; margin-left: 95px; position: relative; background-color: #ccc; }
+.box { padding: 15px 0 0 15px; float: left; }
+/*
+.banner img { border-radius: 5px; box-shadow: 0 0 5px #000; }
+*/
+.carousel-indicators li { background-color: #CCC; border: none;}
+.carousel-indicators .active { background-color: #ffc228; }
+
+.pic { width: 232px; cursor: pointer; }
+.pic:hover {  text-decoration: underline; }
+.pic p { font-size: 14px; font-weight: bold; }
+
+.imgbox-gmail,.imgbox-Gmaps,.imgbox-snapseed,.imgbox-blogger,.imgbox-chrome,.imgbox-android,.imgbox-hangouts,.imgbox-google_plus,.imgbox-youtube,.imgbox-play { padding: 15px 0; border-radius: 5px 5px 0 0; }
+.imgbox-gmail { background-color: #abcbd6; padding: 25px 0; }
+.imgbox-Gmaps { background-color: #f8bd27; padding: 65px 0; }
+.imgbox-snapseed { background-color: #7bc1a1; }
+.imgbox-blogger { background-color: #ce483d; }
+.imgbox-chrome { background-color: #101e55; padding: 35px 0; }
+.imgbox-android { background-color: #8eb021; padding: 25px 0; }
+.imgbox-hangouts { background-color: #7bc1a1; padding: 35px 0; }
+.imgbox-google_plus { background-color: #f8bd27; padding: 25px 0; }
+.imgbox-youtube { background-color: #2b2423; padding: 25px 0; }
+.imgbox-play { background-color: #2b2423; padding: 25px 0; }
+
+.gmail_p,.Gmaps_p,.snapseed_p,.blogger_p,.chrome_p,.android_p,.hangouts_p,.google_plus_p,.youtube_p,.play_p { padding: 15px; border-radius: 0 0 5px 5px; }
+.gmail_p { background-color: #8cbecf; }
+.Gmaps_p { background-color: #e5aa15; }
+.snapseed_p { background-color: #5eb990; }
+.blogger_p { background-color: #bd4036; }
+.chrome_p { background-color: #0b163f; }
+.android_p { background-color: #7e9d1c; }
+.hangouts_p { background-color: #5eb990; }
+.google_plus_p { background-color: #e5aa15; }
+.youtube_p { background-color: #151111; }
+.play_p { background-color: #151111; }
