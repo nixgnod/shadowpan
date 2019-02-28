@@ -1,0 +1,158 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  /*background: rgba(0 ,0 ,0 ,0.3);*/
+
+}
+
+
+/*-----整体布局-----*/
+
+body {
+  background-color: #525659;
+  font-family: "Consolas", "微软雅黑";
+}
+
+#main {
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+#main ul,li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.paper, img{
+  box-shadow: 0 0 5px #000;
+}
+
+.paper {
+  max-width: 800px;
+  background-color: #ffd72e;
+  border-radius: 3px;
+}
+
+.paper a:hover {
+  color: #fd6a31;
+}
+
+/*-----个人简介-----*/
+
+.myself-info {
+  color: #333;
+  padding: 40px 40px 0 40px;
+}
+
+h1, h3 {
+  font-weight: bold;
+}
+
+h1{
+  font-size: 64px;
+}
+
+img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 10px;
+}
+
+.sym, .state  {
+  color: #fd6a31;
+}
+
+.sym {
+  font-size: 50px;
+}
+
+.contact {
+  font-size: 14px;
+  padding-top: 30px;
+}
+
+.contact a {
+  color: #333;
+}
+
+.contact i {
+  margin-right: 20px;
+}
+
+.avater img {
+  margin: 20px 50px 0 0 ;
+  float: right;
+}
+
+/*-----工作经验-----*/
+
+.work-exp {
+  background-color: #333;
+  clip-path: polygon(0 70px, 0 100%, 100% 100%, 100% 0);
+  padding: 100px 40px 40px;
+  color: #f9ffff;
+  margin-right: -16px;
+}
+
+.work-exp a {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.ruler {
+  padding-top: 50px;
+}
+
+.work-exp ul li {
+  width: 20px;
+  height: 40px;
+  border-left: 2px solid #888;
+  border-bottom: 2px solid #888;
+  padding: 5px 0 5px 20px;
+}
+
+.exp {
+  color: #888;
+}
+
+.active {
+  border-top: 2px solid #888;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+
+.title, .state, .ruler {
+  font-weight: bold;
+}
+
+/*个人技能*/
+
+.html5 {
+  color: #e34f26;
+}
+
+.javascript {
+  color: #f2b51c;
+}
+
+.vue {
+  color: #4fbb89;
+}
+
+.angular {
+  color: #e23030;
+}
+
+.php {
+  color: #465a91;
+  font-size: 34px;
+}
+
+.dribbble {
+  color: #e94180;
+}
