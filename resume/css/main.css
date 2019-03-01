@@ -38,6 +38,7 @@ body {
 
 .paper a:hover {
   color: #fd6a31;
+  transition: 200ms;
 }
 
 /*-----个人简介-----*/
@@ -112,6 +113,7 @@ img {
   border-left: 2px solid #888;
   border-bottom: 2px solid #888;
   padding: 5px 0 5px 20px;
+  box-shadow: -5px 6px #222;
 }
 
 .exp {
